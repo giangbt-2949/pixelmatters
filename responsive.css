@@ -1,0 +1,118 @@
+
+
+@media (max-width: 390px) {
+    :root {
+        --ratio: 0.75;
+    }
+
+    .responsive-toggle {
+        display: block;
+    }
+
+    .header-links__container {
+        display: none;
+    }
+
+    .header {
+        padding: 18px 0;
+    }
+
+    .container {
+        width: 90vw;
+        padding: 0px 0px;
+    }
+
+    .header__logo {
+        width: 150px;
+    }
+
+    .featured__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured__text-wrapper {
+        margin-left: 0px;
+    }
+
+    .featured__author-image {
+        width: 35px;
+        height: 35px;
+    }
+
+    .top-posts_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-posts__image {
+        width: 350px;
+        height: 150px;
+    }
+
+    .top-posts__text-wrapper {
+        height: 180px;
+    }
+
+    .top-posts {
+        padding-top: 30px;
+    }
+
+    .posts {
+        padding-bottom: 30px;
+    }
+
+    .navigation {
+        margin-top: 30px;
+    }
+
+    .posts__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .posts__image {
+        width: 350px;
+        height: 150px;
+    }
+
+    .pre-footer {
+        height: 30vh;
+    }
+
+    .pre-footer__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pre-footer__text {
+        width: 250px;
+        margin: 0 20px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__left-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__links-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__margin--bottom {
+        margin-bottom: 10px;
+    }
+}
